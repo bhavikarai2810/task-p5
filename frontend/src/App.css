@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+
+/* =========================
+   NAVIGATION BAR
+   ========================= */
+
+.navbar {
+    width: 85%;
+    height: 42px;
+    margin: 35px auto 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+
+/* DEV@Deakin logo */
+
+.logo {
+    width: 140px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    text-decoration: none;
+}
+
+
+/* Search bar */
+
+.search-container {
+    height: 30px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #d5d5d5;
+}
+
+.search-icon {
+    padding-left: 8px;
+    color: #b8b8b8;
+    font-size: 20px;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 13px;
+}
+
+
+/* Post and Login */
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.nav-link {
+    margin-left: 20px;
+    color: #222;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+
+/* =========================
+   GENERAL PAGE
+   ========================= */
+
+.page {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/* =========================
+   LOGIN
+   ========================= */
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.login-card {
+    width: 325px;
+    min-height: 250px;
+    border: 1px solid #dddddd;
+    padding: 20px 60px 25px 60px;
+}
+
+
+/* Sign up link */
+
+.signup-link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 18px auto;
+    padding: 3px 8px;
+    border: 1px solid #80aaff;
+    color: #4d83ed;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+/* Labels */
+
+.login-card label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    font-size: 12px;
+}
+
+
+/* Inputs */
+
+.login-card input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #d8d8d8;
+    padding: 5px;
+}
+
+
+/* Login button */
+
+.login-card button {
+    width: 100%;
+    height: 25px;
+    margin-top: 18px;
+    border: none;
+    background-color: #3f7ff0;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+    .login-card button:hover {
+        background-color: #326fe0;
+    }
+
+
+/* =========================
+   SIGN UP
+   ========================= */
+
+.signup-page-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.signup-card {
+    width: 435px;
+    border: 1px solid #dddddd;
+    padding: 15px 18px 25px 18px;
+}
+
+    .signup-card h2 {
+        text-align: center;
+        margin: 0 0 20px 0;
+        font-size: 14px;
+        color: #4d83ed;
+    }
+
+
+/* Form rows */
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+    .form-row label {
+        width: 105px;
+        font-size: 12px;
+    }
+
+    .form-row input {
+        flex: 1;
+        height: 27px;
+        border: 1px solid #d8d8d8;
+        padding: 5px;
+    }
+
+
+/* Create button */
+
+.signup-card button {
+    width: 285px;
+    height: 25px;
+    display: block;
+    margin: 20px 0 0 auto;
+    border: none;
+    background-color: #3f7ff0;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+    .signup-card button:hover {
+        background-color: #326fe0;
+    }
+
+
+/* =========================
+   MESSAGES
+   ========================= */
+
+.form-message {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #555;
+}
+
+.back-login {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 18px;
+}
+
+    .back-login a {
+        color: #3f7ff0;
+    }
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer {
+    width: 85%;
+    margin: 50px auto 20px auto;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.footer-section a {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+    .footer-section a:hover {
+        text-decoration: underline;
+    }
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* =========================
+   HOME
+   ========================= */
+
+.home-page {
+    min-height: 500px;
+    padding: 50px;
+    text-align: center;
+}
+
+    .home-page h1 {
+        font-size: 28px;
+    }
+
+
+/* =========================
+   P5 NEWSLETTER SUBSCRIPTION
+   ========================= */
+.home-page {
+    width: 85%;
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 55px 0 25px;
+    text-align: center;
+    flex: 1;
+}
+
+.home-intro { margin: 20px auto 38px; }
+.home-eyebrow {
+    color: #3f7ff0;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.home-intro h1 { margin: 12px 0; font-size: 32px; }
+.home-intro > p:last-child { color: #555; font-size: 15px; }
+.newsletter-card {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 28px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    text-align: left;
+}
+.newsletter-card h2 { margin: 0 0 8px; font-size: 21px; color: #222; }
+.newsletter-card > p { margin-bottom: 20px; color: #555; font-size: 14px; }
+.newsletter-form { display: flex; flex-direction: column; gap: 10px; }
+.newsletter-name-row { display: flex; gap: 14px; }
+.newsletter-name-row label { flex: 1; min-width: 0; }
+.newsletter-form label { display: flex; flex-direction: column; gap: 6px; color: #333; font-size: 13px; }
+.newsletter-form input {
+    width: 100%;
+    min-height: 38px;
+    padding: 9px 10px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    background: #fff;
+    color: #222;
+    font: 14px Arial, Helvetica, sans-serif;
+}
+.newsletter-form input:focus { outline: 2px solid #a8c5ff; border-color: #3f7ff0; }
+.newsletter-form button {
+    min-height: 40px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 3px;
+    background: #3f7ff0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.newsletter-form button:hover { background: #326fe0; }
+.newsletter-form button:disabled { opacity: 0.65; cursor: wait; }
+.newsletter-message { margin: 16px 0 0 !important; padding: 10px; border-radius: 3px; font-size: 13px !important; }
+.newsletter-message.success { background: #e8f6ec; color: #176b32; }
+.newsletter-message.error { background: #fff0f0; color: #a32020; }
+
+@media (max-width: 600px) {
+    .navbar, .footer { width: 94%; }
+    .home-page { width: 92%; padding-top: 28px; }
+    .newsletter-card { padding: 18px; }
+    .newsletter-name-row { flex-direction: column; }
+    .home-intro h1 { font-size: 26px; }
+    .social-links { flex-wrap: wrap; }
+}
